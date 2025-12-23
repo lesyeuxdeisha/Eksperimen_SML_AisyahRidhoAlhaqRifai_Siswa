@@ -1,0 +1,44 @@
+artifact_path: file:C:/Users/LENOVO/Documents/Eksperimen_SML_AisyahRidhoAlhaqRifai_Siswa/Membangun_model/mlruns/0/models/m-0eb14c0092ea4e24a4a2df3c919f9f9e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+is_signature_from_type_hint: false
+mlflow_version: 3.8.0
+model_id: m-0eb14c0092ea4e24a4a2df3c919f9f9e
+model_size_bytes: 1839411
+model_uuid: m-0eb14c0092ea4e24a4a2df3c919f9f9e
+prompts: null
+run_id: 1dce771203a04ee5a10ace03c7ab57db
+signature:
+  inputs: '[{"type": "long", "name": "id", "required": true}, {"type": "long", "name":
+    "age", "required": true}, {"type": "double", "name": "trestbps", "required": true},
+    {"type": "double", "name": "chol", "required": true}, {"type": "boolean", "name":
+    "fbs", "required": true}, {"type": "double", "name": "thalch", "required": true},
+    {"type": "boolean", "name": "exang", "required": true}, {"type": "double", "name":
+    "oldpeak", "required": true}, {"type": "double", "name": "ca", "required": true},
+    {"type": "boolean", "name": "sex_Male", "required": true}, {"type": "boolean",
+    "name": "dataset_Hungary", "required": true}, {"type": "boolean", "name": "dataset_Switzerland",
+    "required": true}, {"type": "boolean", "name": "dataset_VA Long Beach", "required":
+    true}, {"type": "boolean", "name": "cp_atypical angina", "required": true}, {"type":
+    "boolean", "name": "cp_non-anginal", "required": true}, {"type": "boolean", "name":
+    "cp_typical angina", "required": true}, {"type": "boolean", "name": "restecg_normal",
+    "required": true}, {"type": "boolean", "name": "restecg_st-t abnormality", "required":
+    true}, {"type": "boolean", "name": "slope_flat", "required": true}, {"type": "boolean",
+    "name": "slope_upsloping", "required": true}, {"type": "boolean", "name": "thal_normal",
+    "required": true}, {"type": "boolean", "name": "thal_reversable defect", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-23 19:02:47.726709'
